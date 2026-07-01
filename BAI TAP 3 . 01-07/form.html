@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM HTML</title>
+</head>
+<body>
+    <form action="#" method="POST">
+        
+        <label for="user">Nhập tên user:</label>
+        <input type="text" id="user" name="user" placeholder="Nhập tên của bạn">
+        <br><br>
+
+        <label for="pass">Nhập mật khẩu:</label>
+        <input type="password" id="pass" name="pass" placeholder="Nhập mật khẩu của bạn">
+        <br><br>
+
+        <label for="email">Nhập email:</label>
+        <input type="email" id="email" name="email" placeholder="Nhập email của bạn">
+        <br><br>
+
+        <label for="phone">Nhập số điện thoại:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Nhập số điện thoại của bạn">
+        <br><br>
+
+        <label>Giới tính:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Nam</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Nữ</label>
+        <br><br>
+
+        <label>Sở thích:</label>
+        <input type="checkbox" id="shopping" name="hobbies" value="shopping">
+        <label for="shopping">Shopping</label>
+        <input type="checkbox" id="reading" name="hobbies" value="reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+        <label for="traveling">Traveling</label>
+        <br><br>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date">
+        <br><br>
+
+        <label for="datetime">Chọn ngày giờ:</label>
+        <input type="datetime-local" id="datetime" name="datetime">
+        <br><br>
+
+        <label for="file">Tải file lên:</label>
+        <input type="file" id="file" name="file">
+        <br><br>
+
+        <label for="bio">Giới thiệu bản thân:</label><br>
+        <textarea id="bio" name="bio" rows="4" cols="30"></textarea>
+        <br><br>
+
+        <label for="country">Chọn quốc gia:</label>
+        <select name="country" id="country">
+            <option value="vn">Việt Nam</option>
+            <option value="jp">Nhật Bản</option>
+            <option value="kr">Hàn Quốc</option>
+            <option value="us">Mỹ</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Gửi">
+        <input type="reset" value="Xóa">
+    </form>
+</body>
+</html>
