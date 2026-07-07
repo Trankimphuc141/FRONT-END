@@ -1,0 +1,80 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BÀI TẬP 1 VÀ 2. NGÀY 07.07</title>
+    </head>
+    <body>
+        <h1>Thông tin điểm thi học sinh</h1>
+        <table border="1">
+            <tr>
+                <th rowspan="2">STT</th>
+                <th rowspan="2">HỌ</th>
+                <th rowspan="2">TÊN</th>
+                <th colspan="3">ĐIỂM THI</th>
+                <th rowspan="2"> ĐIỂM TRUNG BÌNH</th>
+            </tr>
+            <tr>
+                <th>Toán</th>
+                <th>Lý</th>
+                <th>Hóa</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <th>Nguyễn</th>
+                <th>Minh Tuấn</th>
+                <th>8</th>
+                <th>7</th>
+                <th>9</th>
+                <th>8.0</th>
+            </tr>
+            <tr>
+                <th>2</th>
+                <th>Trần</th>
+                <th>Thị Hồng</th>
+                <th>9</th>
+                <th>8</th>
+                <th>7</th>
+                <th>8.0</th>
+        </table>
+
+        <H1> Tạo form đăng ký sự kiện </H1>
+        <form action="#" method="POST">
+            <label for="name">Họ và tên:</label>
+            <input type="text" id="name" placeholder="Nhập họ và tên của bạn">
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Nhập email của bạn">
+            <br><br>
+
+            <label for="datetime">Ngày giờ:</label>
+            <input type="datetime-local" id="datetime">
+            <br><br>
+
+            <label for="Gender">Giới tính:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Nam</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Nữ</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Khác</label>
+            <br><br>
+
+            <label for="hobbies">Sở thích:</label>
+            <input type="checkbox" id="reading" name="hobbies" value="reading ">
+            <label for="reading">Đọc sách</label>
+            <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+            <label for="traveling">Du lịch</label>
+            <input type="checkbox" id="cooking" name="hobbies" value="cooking"> 
+            <label for="cooking">Nấu ăn</label>
+
+            <br><br>
+            <input type="submit" value="Đăng ký">
+            <input type="reset" value="Xóa">
+        </form>
+
+
+    </body>
+    </html>
